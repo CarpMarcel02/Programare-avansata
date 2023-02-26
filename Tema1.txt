@@ -1,0 +1,8 @@
+In Clasa validare avem toate cerintele cerute la tema,
+La inceput se afla validarea argumentului si verificarea lui ca este de tipul int, 
+Dupa verificare am realizat crearea unei matrici de tipul Latin, am realizat acest lucru
+printr-o permutare de elemente
+Pentru afisarea pe ecran sub forma de String am folosit functia StringBuiler si String.Append, acesta functionand 
+ca un vector
+Iar pentru cronometrarea timpului am luat de la inceputul programului un StartTime iar la final un EndTime si le-am scazut pe 
+acestea dand la final timpul de executie.

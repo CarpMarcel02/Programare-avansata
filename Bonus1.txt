@@ -1,0 +1,8 @@
+Am creat mai intai o matrice care pe fiecare element am inserat initial un 0,
+iar pentru a creea matricea de adiacenta a unui graf ciclic am observat niste reguli
+care se repeta , cum ca primul nod ar avea adiacenta cu ultimul, iar restul au intre ele
+cu cel de inainte si cel din fata.Pentru inmultire m-am ajutat si 4 for-uri,
+primul for pentru a contoriza de cate ori inmultim matricea,
+al doi-lea for ce ar linia primei matrici pe care o inmultim ,
+al trei-lea for ce reprezinta coloana matricei pe care o inmultim,
+iar al patru-lea for ce ar reprezenta pozitia exacta de pe fiecare matrice a elementului ce se inmulteste
