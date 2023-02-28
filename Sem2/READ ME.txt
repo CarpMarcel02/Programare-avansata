@@ -1,0 +1,12 @@
+	In clasa Location vom avea mai intai un enum pentru toate type-urile de orase, dupa avem atributele necesare
+pentru caracterizarea locatiei: tip , coord_x, coord_y, nume. Dupa se poate observa prezenta Set-urilor si Get-urilor
+pentru fiecare atribut, Dupa ele am Constructorul default, iar dupa am aplicat methoda ToString prin Override pentru
+afisare;
+	In clasa Road vom avea mai intai enum-ul pentru toate type-urile de strazi, dupa atributele necesare, imediat
+se gaseste Constructorul, care contine si functia SetLength,(ea verifica daca lungimea strazii este mai mare decat
+distanta euclediana dintre 2 locatii, in cazul in care ea este mai mica, aceasta va printa o eroare pe ecran ), 
+pe urma se regasesc Functii-le Get Si Set pentru fiecare atribut, iar la final se regaseste Override-ul pentru 
+afisare;
+	In main am denumit niste locatii si strazi pentru ilustrarea functionalitatii proiectului.
+	
+											Va multumesc!
