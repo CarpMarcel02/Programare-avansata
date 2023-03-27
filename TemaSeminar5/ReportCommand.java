@@ -23,6 +23,11 @@ public class ReportCommand implements Command {
         this.path = path;
     }
 
+    /**
+     * functia creeaza un raport HTML pe baza obiectelor din catalog si il salveaza intr-un fisier dupa prin ajutorul functiei Desktop.getDesktop va deschide acel fisier intr-un site
+     * @throws IOException
+     * @throws TemplateException
+     */
     @Override
     public void execute() throws IOException, TemplateException {
         List<Document> documents = catalog.getDocs();
@@ -40,6 +45,14 @@ public class TemplateProcessor {
 
     private static final String TEMPLATE_DIR = "src/main/resources/templates";
 
+    /**
+     * creez o configuratie pentru FreeMarker, care imi incarca sabloanele HTML, setez directorul, ii arat ce sablon sa foloseasca, prin
+     * map ii arat ce documente din catalog sa puna in html si le scrie
+     * @param documents
+     * @return
+     * @throws IOException
+     * @throws TemplateException
+     */
     public static String createHtmlReport(List<Document> documents) throws IOException, TemplateException {
         Configuration cfg = new Configuration(Configuration.VERSION_2_3_31);
         cfg.setDirectoryForTemplateLoading(new File(TEMPLATE_DIR));
